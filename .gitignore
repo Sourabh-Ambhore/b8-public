@@ -1,3 +1,5 @@
 file2
 /dir1/dir2/test1
 .terraform*
+/vpc/.terraform*
+/vpc/prajval-creds
