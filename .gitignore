@@ -3,3 +3,5 @@ file2
 .terraform*
 /vpc/.terraform*
 /vpc/prajval-creds
+/modules/resource/.terraform*
+/modules/resource/vpc/.terraform*
