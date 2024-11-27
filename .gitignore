@@ -6,3 +6,4 @@ file2
 /modules/resource/.terraform*
 /modules/resource/vpc/.terraform*
 /count/.terraform*
+/eks/.terraform*

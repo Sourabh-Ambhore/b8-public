@@ -8,12 +8,12 @@
 #   }
 # }
 
-resource "aws_s3_bucket" "state-bucket" {
-  bucket = "wakad-b8-state-bucket-25-11"
-  tags = {
-    purpose = "for tf state"
-  }
-}
+# resource "aws_s3_bucket" "state-bucket" {
+#   bucket = "wakad-b8-state-bucket-25-11"
+#   tags = {
+#     purpose = "for tf state"
+#   }
+# }
 
 resource "aws_s3_bucket" "for-each-resource" {
   for_each = toset(var.bucket_name)
